@@ -1,0 +1,94 @@
+{
+  "sprints": [
+    {
+      "id": "sprint_1",
+      "name": "Sprint 1",
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-14",
+      "columns": [
+        {
+          "id": "todo",
+          "name": "To Do",
+          "tasks": [
+            {
+              "id": "task_5",
+              "title": "Write user stories",
+              "description": "Write user stories for all planned features in this sprint.",
+              "assignee": "Charlie",
+              "priority": "Medium",
+              "status": "To Do"
+            },
+            {
+              "id": "task_3",
+              "title": "Develop login feature",
+              "description": "Implement login functionality using React and Firebase.",
+              "assignee": "Charlie",
+              "priority": "High",
+              "status": "In Progress"
+            }
+          ]
+        },
+        {
+          "id": "in_progress",
+          "name": "In Progress",
+          "tasks": [
+            {
+              "id": "task_2",
+              "title": "Design wireframes",
+              "description": "Design wireframes for the new feature.",
+              "assignee": "Bob",
+              "priority": "Medium",
+              "status": "To Do"
+            },
+            {
+              "id": "task_1",
+              "title": "Set up project repository",
+              "description": "Create a new GitHub repository and set up the initial project structure.",
+              "assignee": "Alice",
+              "priority": "High",
+              "status": "To Do"
+            },
+            {
+              "id": "task_4",
+              "title": "Research project requirements",
+              "description": "Complete the research and document project requirements.",
+              "assignee": "Diana",
+              "priority": "Low",
+              "status": "Done"
+            }
+          ]
+        },
+        {
+          "id": "done",
+          "name": "Done",
+          "tasks": [
+            {
+              "id": "task_7",
+              "title": "Integrate payment gateway",
+              "description": "Integrate Stripe API for handling payments in the app.",
+              "assignee": "Bob",
+              "priority": "High",
+              "status": "In Progress"
+            },
+            {
+              "id": "task_6",
+              "title": "Create database schema",
+              "description": "Design the database schema for the new application.",
+              "assignee": "Alice",
+              "priority": "High",
+              "status": "To Do"
+            },
+            {
+              "id": "task_8",
+              "title": "Create project logo",
+              "description": "Design the logo for the project.",
+              "assignee": "Diana",
+              "priority": "Low",
+              "status": "Done"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
